@@ -1,0 +1,186 @@
+
+*{
+       color:#fff;
+}
+:root{
+    padding:0;
+    top:0;
+    --bg-color:#081b29;
+}
+body{
+   background-color:#112e42;
+}
+.navbar{
+    max-width:95%;
+    display:flex;
+    margin:auto;
+    justify-content: space-between;
+}
+.nav-item ul{
+    display: flex;
+    list-style: none;
+    margin-top:30px;
+}
+.nav-item ul li{
+    padding: 0 20px;
+    transition: 0.3s;
+}
+.nav-item ul li:hover{
+    color:rgb(255, 0, 255);
+}
+.home{
+    padding-left:2.5%;
+    background-image: url(/images/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:500px;
+    margin-left:0;
+}
+.home h1{
+    color:white;
+    font-size: 2.6rem;
+}
+.home-img{
+    position: absolute;
+    top:18.5%;
+    right:0;
+    width:38%;
+    height:79%;
+    background:transparent;
+    transition:2s;
+}
+.home-img:hover{
+    background:#081b29;
+    opacity: 0.8;
+}
+.buttons{
+    display:flex;
+}
+.buttons p{
+    margin: 10px;
+    width:100px;
+    height:15px;
+    background-color: rgba(10, 132, 233, 0.904);
+    border:1px solid black;
+    font-size:large;
+    padding:10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.icons{
+    border-radius:10px;
+    padding:10px;
+    margin:10px;
+
+}
+.icons i{
+    padding:10px;
+}
+.about-me{
+    text-align:center;
+}
+.about-me img{
+    border-radius:50%;
+    width:15%;
+    height:5%;
+}
+.circle-spin{
+    height:35%;
+    width:19%;
+    position: absolute;
+    transform: translate(0px, 1px) rotate(0);
+    border-radius: 50%;
+    border-top: 0.2rem solid blue;
+    border-bottom: 0.2rem solid red;
+    margin-top:-220px;
+    margin-left:40%;
+}
+.education{
+    display:flex;
+    align-items:left;
+    flex-direction: column;
+    min-height: auto;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.education-row{
+    display: flex;
+}
+#education h2{
+    text-align: center;
+}
+.education-box{
+    border-left: .2rem soild var(--bg-color);
+}
+.education-content{
+position: relative;
+padding: 1%;
+}
+.content{
+    position: relative;
+    padding:1.5rem; 
+    border:.2rem solid var(--bg-color);
+    border-radius: .6rem;
+    margin-bottom: 2rem;
+}
+#edu{
+    margin-left:1%;
+}
+.my-skills{
+    display: flex;
+    gap:2rem;    
+}
+.coding-skills,.proffesional-skills{
+    margin:auto;
+    border: 1px solid rgb(231, 10, 157);
+    border-radius: 3px;
+    padding:1%;
+    width:500px;
+    height:75%;
+}
+.bar{
+    width:500px;
+    height:9px;
+    border: 1px solid black;
+    border-radius:2px;
+    background-color: rgb(24, 223, 230);
+}
+span{
+    color:red;
+    justify-content: left;
+}
+.contact1 input{
+width:250px;
+height:20px;
+border:1px solid rgb(4, 191, 248);
+border-radius: 2px;
+background-color: var(--bg-color);
+margin:10px;
+}
+.contact2 input{
+    width:250px;
+    height:20px;
+    border:1px solid rgb(4, 191, 248);
+border-radius: 2px;
+background-color: var(--bg-color);
+margin:10px;
+}
+.contact3 input{
+   width:530px;
+   height:150px;
+   border:1px solid rgb(4, 191, 248);
+border-radius: 2px;
+background-color: var(--bg-color);
+}
+::placeholder{
+    color:white;
+}
+.submit{
+background-color: #081b29;
+}
+.submit:hover{
+    background-position: left;
+}
