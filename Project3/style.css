@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color:#081b29;
+    color:#fff;
+}
+.navbar{
+    display: flex;
+}
+.nav-item{
+    display:flex;
+    margin:auto;
+    justify-content:space-around;
+    max-width: 80%;
+    margin-right:15%;
+}
+.home{
+   background-image: linear-gradient(45deg,#f06,#3cf);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+.nav-item ul:hover{
+background: linear-gradient(45deg,#f06,#3cf);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+.nav-item ul{
+   padding:20px;
+}
+.logo{
+    margin-left:5%;
+    background: linear-gradient(45deg,#f06,#3cf);
+-webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+
+}
+button{
+    border:1px solid black;
+    background-image: linear-gradient(45deg,#f06,#3cf);
+    height: 35px;
+    width:15%;
+    border-radius: 20px;
+}
+.middle{
+    padding:15%;
+}
+.middle p{
+    padding-bottom:4%;
+}
+.span{
+    background: linear-gradient(45deg,#f06,#3cf);
+    height:400px;
+    width: 400px;
+   border-radius:70%;
+   margin-left:65%;
+}
+.home-img{
+    margin-top:-500px;
+}
+.span img{
+    margin:10px;
+}
+img{
+height:380px;
+width:380px;
+border-radius: 50%;
+background-color: #081b29;
+margin-left: 45px;
+}
+i{
+    position: absolute;
+}
+.icon1{
+left:10%;
+top:46%;
+border-radius: 50%;
+background: linear-gradient(45deg,#f06,#3cf);
+-webkit-text-fill-color:transparent;
+-webkit-background-clip:text;
+}
+.icon2{
+    left:10%;
+    top:52%;
+    border-radius: 50%;
+    background: linear-gradient(45deg,#f06,#3cf);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text;
+    }
+.icon3{
+    left:10%;
+    top:58%;
+    border-radius: 50%;
+    background: linear-gradient(45deg,#f06,#3cf);
+    -webkit-text-fill-color: transparent;
+       -webkit-background-clip: text;
+    }
+.cont-me{
+    text-align: center;
+}
+input{
+    background-color: #3cf;
+    padding:10px;
+    margin:20px;
+    border-radius: 5px;
+    box-shadow:2px;
+    height: 30px;
+    width: 30%;
+}
+.contact{
+    margin-top:25px;
+    width:100%;
+    height: 45%;
+    background:linear-gradient(45deg,red,blue);
+}
