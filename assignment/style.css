@@ -1,0 +1,165 @@
+.blockstars{
+    max-width: 80%;
+    margin: auto;
+    border-radius: 5px;
+}
+body{
+    background: linear-gradient(60deg,red,blue);
+}
+.blockstars1{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+}
+.home{
+    text-align: center;
+}
+.col-6{
+  margin-left: 40%;
+}
+.navbar{
+    position: fixed;
+}
+.home img{
+    width:640px;
+    height:240px;
+}
+.combo1{
+    width:239px;
+    height: 134px;
+    background: linear-gradient(45deg, blue, red);
+padding:5px;
+}
+.combo{
+    display: flex;
+    margin:auto;
+    max-width: 80%;
+    padding:10px;
+    
+}
+.combo1:hover{
+    background-color: gold;
+}
+.combo .combo1{
+    margin:10px;
+    border: 2px solid black;
+    border-radius:10px;
+}
+span{
+    width:50px;
+    height:10px;
+    background-color: gery;
+border-radius:10px;
+
+}
+.boxses{
+    display: flex;
+}
+p,h1{
+    text-align: center;
+}
+.blockstars{
+    width:341px;
+    height: 124px;
+    background:linear-gradient(80deg,green,red);
+    padding:24px 31px;
+}
+.blockstars:hover{
+    background: gold;
+}
+.basicwrapper{
+    width:430px;
+    height:490px;
+    background:linear-gradient(80deg,green,red);
+    max-width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.basicwrapper:hover{
+    background: gold;
+}
+.basicwrapper1{
+    display: flex;
+    padding: 10px;
+}
+.div1{
+    height: 500px;
+    width:400px;
+    background-color: aqua;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+.div2,.div3,.div4{
+    display: flex;
+}
+.div2-1{
+    width:100px;
+    height: 100px;
+    background:linear-gradient(80deg,green,red);
+    margin:10px;
+    border-radius: 5px;
+    left:0;
+}
+.col{
+    height:100px;
+    margin:20px;
+    border-radius: 5px;
+    background: linear-gradient(80deg,green,red);
+    max-width: 80%;
+    margin:20px;
+}
+.col:hover{
+    background: gold;
+}
+.templates .col{
+    text-align: center;
+}
+#noatation{
+    margin-left:35%;
+}
+.notation-button ul{
+list-style: none;
+display: flex;
+max-width: 35%;
+margin: auto;
+}
+footer .div1{
+    height:600px;
+    width:240px;
+    background-color: red;
+}
+footer{
+    display: flex;
+}
+i{
+    margin:2px;
+}
+.footer{
+display:flex;
+margin-left:20%;
+}
+.options{
+    display: flex;
+    margin:50px;
+}
+footer .options li{
+    list-style: none;
+}
+footer .div2{
+    margin-left: 40%;
+}
+.options{
+    margin-left:10%;
+}
+.social{
+    margin-left:20%;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
