@@ -1,135 +1,41 @@
-
-   
-*{
-    color:white;
-    background-repeat: no-repeat;
-    background-position:fixed;
-}
-.navbar{
-    max-width:90%;
-    display: flex;
-    margin:auto;
-    justify-content:space-between;
-}
-.nav-item ul{
-    display: flex;
-}
-.nav-item ul li{
-    list-style: none;
-    padding: 0 20px;
-    color:white;
-}
-.nav-item ul li:hover::after{
-width:100%;
-}
-.middle{
-    margin-left:8.5%;
-    margin-top:15%;
-    background-size: cover;
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
 }
 
-.about ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-}
-.about ul li{
-    padding-left: 50px;
-    padding-right: 150px;
-}
-.about-me{
-    display:flex;
-    justify-content:center;
-}
-.about{
-    margin:45px;
-    margin-top:20px;
-}
-.service{
-    max-width:80%;
-    margin:auto;
-}
-.servivce1{
-    margin-left:-45px;
-}
-.service1,.service2,.service3{
-    background-color: rgb(12, 11, 10);
-    width:20vw;
-    height: 38vh;
-     border:1px solid  rgb(12, 11, 10); 
-     border-radius:5px;
-     padding:20px;
-     margin:20px;
-}
-.work{
-    display:flex;
-}
-.work1:hover,.work2:hover,.work3:hover{
-     transform: scale(1.1);
-}
-.work1,.work2,.work3{
-    width:20%;
-    height:30%;
-    border:1px solid grey;
-    border-radius: 7px;
-    max-width: 80%;
-    margin:20px;
-}
-.work1{
-    margin-left:16%;
-    
-}
-#see{
-    width:100px;
-    height: 30px;
-   border-radius: 5px;
-   margin-left:50%;
-   text-align: center;
-   padding-top:7px;
-   border:1px solid #f5076a;
+.dice {
+  text-align: center;
+  display: inline-block;
 
 }
-#see:hover{
-    background-color: #f5076a;
+
+body {
+  background-color: #393E46;
 }
-.contact1-1,.contact1-2{
-display:flex;
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
 }
-#download{
-    width:150px;
-    height: 30px;
-   border-radius: 5px;
-   text-align: center;
-   padding-top:10px;
-   background-color: #f5076a;
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
 }
-.contact{
-    margin-left:10%;
-    display:flex;
+
+img {
+  width: 80%;
 }
-#submit{
-    width:100px;
-    height: 30px;
-   border-radius: 5px;
-   text-align: center;
-   padding-top:10px;
-   background-color: #f5076a;
-}
-.follow i{
-    padding:10px;
-}
-.contact2{
-    display: flex;
-}
-.form{
-margin-left:30%;
-margin-top:1.5%;
-margin-left:8%;
-}
-.form input{
-    margin:10px;
-}
-.contact{
-    margin-top:10%;
-    margin-left:18%;
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
 }
